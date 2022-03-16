@@ -15,8 +15,6 @@ const signInFormSchema = yup.object().shape({
   password: yup.string().required('Senha obrigatória!'),
 })
 
-console.log('---------TESTE------------')
-
 export default function SignIn() {
   const { register, handleSubmit, formState, errors } = useForm({
     resolver: yupResolver(signInFormSchema)
