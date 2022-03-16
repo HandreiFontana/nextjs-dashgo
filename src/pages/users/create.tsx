@@ -37,7 +37,7 @@ export default function UserList() {
                     <Flex mt="8" justify="flex-end">
                         <HStack spacing="4">
                             <Link href="/users" passHref>
-                                <Button colorScheme="whiteAlpha">Cancelar</Button>
+                                <Button as="a" colorScheme="whiteAlpha">Cancelar</Button>
                             </Link>
                             <Link href="/users" passHref>
                                 <Button colorScheme="pink">Salvar</Button>
